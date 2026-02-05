@@ -1,5 +1,20 @@
 # CBbot - One-Click Development Environment 🚀
 
+## 📦 Quick Download
+
+<div align="center">
+  <a href="https://github.com/mobvoi/CBbot/releases/latest">
+    <img src="https://img.shields.io/badge/📦_Download-Latest_Release-blue?style=for-the-badge&logo=github" alt="Download Latest Release" height="40">
+  </a>
+</div>
+
+<div align="center">
+  <p><strong>🎯 Get the complete CBbot package from our latest release!</strong></p>
+  <p>📥 <a href="https://github.com/mobvoi/CBbot/releases">Visit Releases Page</a> • 🚀 One-click installation package available</p>
+</div>
+
+---
+
 <div align="center">
   <img src="https://oci-useast-backend-public.dupdub.com/subtitles/image/a409edad-107c-4d6d-bcc3-67fb536829e2.svg" alt="CBbot Logo" width="200" style="margin-bottom: 20px;">
 </div>
@@ -76,8 +91,20 @@
 
 ### 2. Download CBbot
 
+**🎯 Recommended: Download from Release (Complete Package)**
+
+1. **Visit**: [CBbot Releases](https://github.com/mobvoi/CBbot/releases/latest)
+2. **Download**: `CBbot-v{version}.zip` (complete installation package)
+3. **Extract**: 
+   ```bash
+   unzip CBbot-v*.zip
+   cd CBbot
+   ```
+
+**Alternative: Clone Repository**
+
 ```bash
-# Clone the repository
+# For developers who want latest source code
 git clone https://github.com/mobvoi/CBbot.git
 cd CBbot
 ```
