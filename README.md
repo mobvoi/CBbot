@@ -1,7 +1,7 @@
-# CBBot - One-Click Development Environment 🚀
+# CBbot - One-Click Development Environment 🚀
 
 <div align="center">
-  <img src="https://oci-useast-backend-public.dupdub.com/subtitles/image/a409edad-107c-4d6d-bcc3-67fb536829e2.svg" alt="CBBot Logo" width="200" style="margin-bottom: 20px;">
+  <img src="https://oci-useast-backend-public.dupdub.com/subtitles/image/a409edad-107c-4d6d-bcc3-67fb536829e2.svg" alt="CBbot Logo" width="200" style="margin-bottom: 20px;">
 </div>
 
 <div align="center">
@@ -74,7 +74,7 @@
 
 </details>
 
-### 2. Download CBBot
+### 2. Download CBbot
 
 ```bash
 # Clone the repository
