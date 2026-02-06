@@ -36,6 +36,7 @@
 ## 📑 Table of Contents
 
 - [✨ Features](#-features)
+- [💬 Community](#-community)
 - [📋 Prerequisites](#-prerequisites)
 - [⚡ Quick Start](#-quick-start)
 - [🎯 Access Services](#-access-services)
@@ -43,7 +44,6 @@
 - [🔧 Advanced Configuration](#-advanced-configuration)
 - [❓ FAQ](#-faq)
 - [💰 Billing Information](#-billing-information)
-- [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 
 ## ✨ Features
@@ -55,6 +55,46 @@
 🧠 **Intelligent Skills**: Built-in professional capabilities across multiple domains  
 🔧 **Configurable**: Flexible configuration options  
 📱 **macOS Optimized**: Specifically designed for macOS users  
+
+## 💬 Community
+
+Join our community for support, discussions, and updates!
+
+### 🌐 International Community
+
+<div align="center">
+  <a href="https://discord.com/invite/yUcCxACgh9">
+    <img src="https://img.shields.io/badge/Discord-Join_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord" height="40">
+  </a>
+</div>
+
+### 🇨🇳 中文社区
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://oci-useast-backend-public.dupdub.com/subtitles/image/35f1e711-f7c1-4894-a1a4-e0ca133aa4cc.png" alt="飞书群" width="150">
+        <br>
+        <strong>🚀 飞书群</strong>
+        <br>
+        <small>CBbot交流群</small>
+      </td>
+      <td align="center">
+        <img src="https://oci-useast-backend-public.dupdub.com/subtitles/image/df588231-d149-4a29-92bc-e4c6dbf5f51f.jpg" alt="微信群" width="150">
+        <br>
+        <strong>💬 微信群</strong>
+        <br>
+        <small>CBbot 交流群</small>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div align="center">
+  <p>🚀 <strong>Get help, share ideas, and connect with other developers!</strong></p>
+  <p>💡 <strong>获得帮助、分享想法、与其他开发者交流！</strong></p>
+</div>
 
 ## 📋 Prerequisites
 
@@ -350,31 +390,45 @@ export http_proxy=http://127.0.0.1:7890
 2. View account dashboard
 3. Check quotas & billing history
 
-## 🤝 Contributing
+## 💬 Community
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+Join our community for support, discussions, and updates!
 
-### Development Setup
+### 🌐 International Community
 
-> **Note**: CBbot development requires working with Release packages as the primary distribution method.
+<div align="center">
+  <a href="https://discord.com/invite/yUcCxACgh9">
+    <img src="https://img.shields.io/badge/Discord-Join_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord" height="40">
+  </a>
+</div>
 
-**Setup Process**:
-```bash
-# Download latest release for testing
-# Report issues and submit improvement suggestions
-# Contribute to documentation and user guides
-```
+### 🇨🇳 中文社区
 
-**🤖 AI One-Click Installation & Development Support**:
-- **Local AI IDE**: Use Cursor, CodeBanana, or similar AI coding tools
-- **One-Click Setup**: Ask AI "Install CBbot for me step by step" for automated guidance
-- **AI Can Handle**:
-  - 🚀 **One-click installation**: Complete setup automation
-  - 📋 Feature analysis and suggestions
-  - 🐛 Bug reproduction and reporting  
-  - 📚 Documentation improvements
-  - 🔧 Configuration optimization
-  - 🛠️ Troubleshooting and error fixes
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://oci-useast-backend-public.dupdub.com/subtitles/image/35f1e711-f7c1-4894-a1a4-e0ca133aa4cc.png" alt="飞书群" width="150">
+        <br>
+        <strong>🚀 飞书群</strong>
+        <br>
+        <small>CBbot交流群</small>
+      </td>
+      <td align="center">
+        <img src="https://oci-useast-backend-public.dupdub.com/subtitles/image/df588231-d149-4a29-92bc-e4c6dbf5f51f.jpg" alt="微信群" width="150">
+        <br>
+        <strong>💬 微信群</strong>
+        <br>
+        <small>CBbot 交流群</small>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div align="center">
+  <p>🚀 <strong>Get help, share ideas, and connect with other developers!</strong></p>
+  <p>💡 <strong>获得帮助、分享想法、与其他开发者交流！</strong></p>
+</div>
 
 ## 📄 License
 
