@@ -156,6 +156,26 @@ Let AI handle the entire installation process for you:
 
 </details>
 
+#### 🔑 **CBkey Working Mechanism**
+
+> **Important**: Understanding how CBkey works to avoid common confusion
+
+**📋 Key Concepts**:
+- 🌐 **Cloud Quotas**: Your AI usage quotas and credits are stored on [www.codebanana.com](https://www.codebanana.com)
+- 💻 **Local Processing**: All other data (user info, chat history, configurations) stays on your local machine
+- 🔗 **Connection**: CBkey acts as a bridge - copy it from the website into your local CBbot to access cloud quotas
+
+**✅ How It Works**:
+1. **Without CBkey**: CBbot runs locally but **cannot access cloud AI quotas** → Limited functionality
+2. **With CBkey**: CBbot connects to cloud quotas → **Full AI capabilities unlocked**
+3. **Privacy**: Only quota usage is synced; your conversations and data remain **100% local**
+
+**🔒 Security & Privacy**:
+- ✅ **Local First**: All user data, chat history, and configurations stay on your device
+- ✅ **Selective Sync**: Only quota/billing information syncs with cloud
+- ✅ **No Data Mining**: Your conversations are never uploaded or analyzed
+- ✅ **Offline Capable**: Core features work offline (except AI that requires cloud quotas)
+
 ### 2. Installation Steps
 
 **📦 Release Package Installation**
@@ -263,6 +283,40 @@ Simply describe your needs in natural language:
 > **Tip**: The skill system automatically matches the most suitable processing method. No need to manually specify skill names.
 
 ## 🔧 Advanced Configuration
+
+### 🤖 **IM Bot Configuration Parameters**
+
+> **Important**: Understanding key configuration parameters for IM bot integrations
+
+**📋 Core Parameters**:
+- **`sender_id`**: Corresponds to **CBbot Key from local settings** (obtained from localhost settings)
+- **`agent_id`**: Corresponds to **Agent ID from local settings** (obtained from localhost settings)
+- **`chat_id`**: Corresponds to **browser chat_id** (specific conversation/channel identifier)
+
+**🔗 Parameter Relationships**:
+```
+Local Settings CBbot Key  ←→  sender_id    (from local settings)
+        ↓
+Local Settings Agent ID  ←→  agent_id     (from local settings)
+        ↓
+Browser Chat Session    ←→  chat_id      (browser conversation ID)
+```
+
+**✅ Configuration Flow**:
+1. **sender_id**: Use the CBbot Key from your local settings
+2. **agent_id**: Use the Agent ID from your local settings  
+3. **chat_id**: Use the chat ID from your browser session
+
+**💡 Where to Find These Values**:
+- **sender_id & agent_id**: Navigate to localhost settings to retrieve your CBbot Key and Agent ID
+- **chat_id**: Found in browser URL or session when using CBbot web interface
+
+**💡 Why This Matters**:
+- **sender_id**: Links IM bot to your local CBbot configuration
+- **agent_id**: Ensures messages route to the correct local agent
+- **chat_id**: Associates IM conversations with browser chat sessions
+
+---
 
 <details>
 <summary>🔗 <strong>Feishu Bot Integration</strong></summary>
