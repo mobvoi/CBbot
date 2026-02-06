@@ -39,6 +39,7 @@
 - [📋 Prerequisites](#-prerequisites)
 - [⚡ Quick Start](#-quick-start)
 - [🎯 Access Services](#-access-services)
+- [🧠 Intelligent Skill System](#-intelligent-skill-system)
 - [🔧 Advanced Configuration](#-advanced-configuration)
 - [❓ FAQ](#-faq)
 - [💰 Billing Information](#-billing-information)
@@ -51,6 +52,7 @@
 ⚡ **One-Click Setup**: Automated installation and configuration  
 🛠️ **Full Stack**: Java, MySQL, Redis, RabbitMQ, Node.js included  
 🤖 **Multi-Platform Bots**: Feishu, Telegram, Discord integration  
+🧠 **Intelligent Skills**: Built-in professional capabilities across multiple domains  
 🔧 **Configurable**: Flexible configuration options  
 📱 **macOS Optimized**: Specifically designed for macOS users  
 
@@ -181,6 +183,44 @@ Once installation completes:
 ```
 🌐 Main Interface: http://localhost:3100
 ```
+
+## 🧠 Intelligent Skill System
+
+CBbot provides professional capabilities across multiple domains through an intelligent skill system.
+
+### 📚 Available Skills
+
+**Document Processing**
+- **docx**: Word document creation, editing, and analysis with revision tracking
+- **pptx**: Professional presentation creation with layout design
+- **xlsx**: Spreadsheet processing with formulas, charts, and data analysis
+- **pdf**: PDF operations including extraction, merging, and form filling
+
+**System Automation**
+- **macos-automation**: macOS system control using AppleScript (email, file management, app control)
+
+**Development**
+- **codebanana-skill-guide**: Skill development framework for creating custom automation
+
+### 💡 Usage
+Simply describe your needs in natural language:
+
+```
+"Create a project progress presentation"
+→ CBbot: Invokes pptx skill to generate professional slides
+
+"Analyze sales data in this Excel file"
+→ CBbot: Invokes xlsx skill for data analysis and visualization
+
+"Send email notification about project delay"
+→ CBbot: Invokes macos-automation skill to send system email
+```
+**Features:**
+- 🎯 Automatic skill selection based on your input
+- 🔄 Multi-skill chaining for complex workflows
+- 🚀 Extensible with custom skill development
+
+> **Tip**: The skill system automatically matches the most suitable processing method. No need to manually specify skill names.
 
 ## 🔧 Advanced Configuration
 

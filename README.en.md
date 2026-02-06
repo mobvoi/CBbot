@@ -133,6 +133,78 @@ The script will automatically complete the following steps:
 After installation is complete, access services via:
 Open browser and visit: http://localhost:3100
 
+---
+
+## 🧠 Intelligent Skill System
+
+CBbot features a powerful intelligent skill system that provides professional capabilities across multiple domains.
+
+### 📚 Document Processing Skills
+
+#### **docx** - Word Document Processing
+- **Features**: Create, edit, and analyze Word documents
+- **Highlights**: Supports revision tracking, comment management, format preservation
+- **Use Cases**: Report generation, document collaboration, content analysis
+- **Examples**: "Create a project report" / "Analyze contract document content"
+
+#### **pptx** - Presentation Processing
+- **Features**: Create, edit, and analyze presentations
+- **Highlights**: Supports layout design, slide management, speaker notes
+- **Use Cases**: Business presentations, educational materials, report slides
+- **Examples**: "Create a product launch PPT" / "Optimize presentation design"
+
+#### **xlsx** - Spreadsheet Processing
+- **Features**: Create, edit, and analyze spreadsheets
+- **Highlights**: Supports complex formulas, data visualization, formatting
+- **Use Cases**: Data analysis, financial reports, project management
+- **Examples**: "Generate sales data charts" / "Calculate financial metrics"
+
+#### **pdf** - PDF Document Operations
+- **Features**: Create, edit, and extract content from PDF documents
+- **Highlights**: Text extraction, table processing, document merging/splitting, form filling
+- **Use Cases**: Document archiving, information extraction, form processing
+- **Examples**: "Extract table data from PDF" / "Merge multiple PDF files"
+
+### 🔧 System Automation Skills
+
+#### **macos-automation** - macOS System Automation
+- **Features**: Automated operations and control of macOS systems
+- **Highlights**: Uses AppleScript for system-level operations
+- **Use Cases**: Email sending, file management, application control, system settings
+- **Examples**: "Send email to team" / "Batch organize desktop files" / "Control music playback"
+
+### 🛠️ Development Management Skills
+
+#### **codebanana-skill-guide** - Skill Development Management
+- **Features**: Development and management of the skill system
+- **Highlights**: Complete skill specifications, supports CRUD operations for skills
+- **Use Cases**: Custom skill development, skill management, feature extension
+- **Examples**: "Create new data processing skill" / "Update existing skill configuration"
+
+### 💡 How to Use Skills
+
+When chatting with CBbot, simply describe your needs, and the system will automatically identify and invoke the appropriate skills:
+
+```
+User: "Help me create a project progress presentation"
+CBbot: Automatically invokes pptx skill to generate professional presentations
+
+User: "Analyze the sales data in this Excel file"
+CBbot: Automatically invokes xlsx skill for data analysis and visualization
+
+User: "Send email notification about project delay"
+CBbot: Automatically invokes macos-automation skill to send system email
+```
+
+### 🚀 Skill Extension
+
+CBbot's skill system supports extension, allowing you to:
+- **Use existing skills**: directly invoke built-in professional skills
+- **Customize skill configurations**: adjust skill parameters according to business needs
+- **Develop new skills**: use codebanana-skill-guide to create custom skills
+
+> **Tip**: The skill system automatically matches the most suitable processing method based on your input, without needing to manually specify skill names.
+
 ## ❓ FAQ
 
 ### 1. Error "Docker daemon is not running"
