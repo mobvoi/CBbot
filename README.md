@@ -282,6 +282,32 @@ Simply describe your needs in natural language:
 
 > **Tip**: The skill system automatically matches the most suitable processing method. No need to manually specify skill names.
 
+### 🛠️ Skills Directory
+
+The `skills/` directory contains community-contributed skills and extensions:
+
+- **📁 skills/**: Community skill repository
+  - Contains specialized automation scripts and tools
+  - Open for community contributions and updates
+  - Each skill includes documentation and usage examples
+
+**🤝 Contributing Skills**:
+- Developers can submit their own skills to the repository
+- Follow the skill development guide in `codebanana-skill-guide`
+- All contributions welcome: automation tools, integrations, utilities
+- Skills are continuously updated and maintained by the community
+
+**📋 Skill Structure**:
+```
+skills/
+├── skill-name/
+│   ├── SKILL.md          # Skill documentation
+│   ├── main.py           # Main execution script
+│   └── requirements.txt  # Dependencies
+```
+
+> **Note**: The skills directory is actively maintained and regularly updated. Check back for new community contributions!
+
 ## 🔧 Advanced Configuration
 
 ### 🤖 **IM Bot Configuration Parameters**
