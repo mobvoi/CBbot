@@ -76,6 +76,31 @@
 
 ## ⚡ Quick Start
 
+### 🎯 Installation Method
+
+**📦 Release Package Installation (Only Method)**
+
+> **Important**: CBbot is only available through Release packages. Source code installation is not supported.
+
+1. **Download**: Go to [CBbot Releases](https://github.com/mobvoi/CBbot/releases/latest)
+2. **Get Package**: Download `CBbot-v{version}.zip` (complete installation package)
+3. **Install**: Extract and follow the installation guide included in the package
+
+**🤖 AI One-Click Installation Support**
+
+Let AI handle the entire installation process for you:
+
+1. **Use Local AI**: Open your AI coding assistant (CodeBanana, Cursor, GitHub Copilot Chat, etc.)
+2. **One-Click Command**: Simply say "**Install CBbot for me step by step**" or "**Set up CBbot automatically**"
+3. **AI Will Handle**: Download, extract, configure, and run CBbot automatically
+4. **Smart Support**: Upload error logs or screenshots for instant problem solving
+5. **Benefits**: 
+   - 🚀 **One-click automated installation**
+   - ✅ Real-time troubleshooting
+   - ✅ Step-by-step guidance
+   - ✅ Environment-specific solutions
+   - ✅ Error diagnosis and fixes
+
 ### 1. Get Your CBbot Key
 
 1. Visit [CodeBanana](https://www.codebanana.com)
@@ -89,45 +114,50 @@
 
 </details>
 
-### 2. Download CBbot
+### 2. Installation Steps
 
-**🎯 Recommended: Download from Release (Complete Package)**
+**📦 Release Package Installation**
 
-1. **Visit**: [CBbot Releases](https://github.com/mobvoi/CBbot/releases/latest)
-2. **Download**: `CBbot-v{version}.zip` (complete installation package)
-3. **Extract**: 
+1. **Extract Package**: 
    ```bash
    unzip CBbot-v*.zip
    cd CBbot
    ```
 
-**Alternative: Clone Repository**
+2. **Configure**: Edit `package/config/application.yml`
+   ```yaml
+   user-key: {{YOUR_CBBOT_KEY}}
+   ai-bot:
+     fs:
+       subscribe: false
+   ```
 
-```bash
-# For developers who want latest source code
-git clone https://github.com/mobvoi/CBbot.git
-cd CBbot
-```
+3. **Install & Run**: 
+   ```bash
+   # Ensure Docker Desktop is running
+   bash install.sh
+   ```
 
-### 3. Configure Application
+**🤖 AI Coding IDE Support**
 
-Edit the configuration file:
+Get installation help using your local AI coding environment:
 
-```bash
-vim package/config/application.yml
-```
+**Supported AI Tools**: CodeBanana, Cursor, GitHub Copilot Chat, etc.
 
-Add your key:
+**Common AI Prompts**:
+- "Help me install CBbot from release package on macOS"
+- "Troubleshoot CBbot Docker installation errors"
+- "Configure CBbot application.yml file"
+- "Fix CBbot port conflicts during installation"
 
-```yaml
-user-key: {{YOUR_CBBOT_KEY}}
-ai-bot:
-  fs:
-    subscribe: false
-    # Other optional settings...
-```
+**AI Can Help With**:
+   - ✅ Docker Desktop setup and issues
+   - ✅ Configuration file editing
+   - ✅ Environment troubleshooting
+   - ✅ Error log analysis
+   - ✅ Custom setup requirements
 
-### 4. Setup Proxy (China Users)
+### 3. Setup Proxy (China Users)
 
 > **Note**: Required for China mainland users accessing overseas models
 
@@ -136,16 +166,6 @@ ai-bot:
 export https_proxy=http://127.0.0.1:7890
 export http_proxy=http://127.0.0.1:7890
 export all_proxy=socks5://127.0.0.1:7890
-
-# Verify
-echo $https_proxy
-```
-
-### 5. Install & Run
-
-```bash
-# Ensure Docker Desktop is running
-bash install.sh
 ```
 
 **Installation Process:**
@@ -296,14 +316,25 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 ### Development Setup
 
-```bash
-# Clone repository
-git clone https://github.com/mobvoi/CBbot.git
-cd CBbot
+> **Note**: CBbot development requires working with Release packages as the primary distribution method.
 
-# Follow installation steps above
-bash install.sh
+**Setup Process**:
+```bash
+# Download latest release for testing
+# Report issues and submit improvement suggestions
+# Contribute to documentation and user guides
 ```
+
+**🤖 AI One-Click Installation & Development Support**:
+- **Local AI IDE**: Use Cursor, CodeBanana, or similar AI coding tools
+- **One-Click Setup**: Ask AI "Install CBbot for me step by step" for automated guidance
+- **AI Can Handle**:
+  - 🚀 **One-click installation**: Complete setup automation
+  - 📋 Feature analysis and suggestions
+  - 🐛 Bug reproduction and reporting  
+  - 📚 Documentation improvements
+  - 🔧 Configuration optimization
+  - 🛠️ Troubleshooting and error fixes
 
 ## 📄 License
 
