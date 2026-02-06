@@ -12,30 +12,21 @@
 
 #### 下载安装：
 
-1. 访问 Docker 官网：[https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
-2. 点击 **Download for Mac**
-3. 根据你的 Mac 芯片选择：
-   - **Apple Silicon (M1/M2/M3)** → 选择 ARM64 版本
-   - **Intel 芯片** → 选择 AMD64 版本
-4. 下载完成后，双击 `.dmg` 文件安装
-5. 将 Docker 图标拖入 **Applications** 文件夹
+如果您还未安装 Docker Desktop，请按照以下步骤操作：
 
-#### 启动 Docker：
+1. **下载 Docker Desktop** 从官方网站：
+   - 访问：https://docs.docker.com/desktop/setup/install/mac-install/
+   - 根据您的 Mac 选择合适的版本（Apple Silicon 或 Intel）
 
-1. 打开 **Launchpad**，找到 **Docker** 图标
-2. 点击启动（首次启动需要输入密码授权）
-3. 等待顶部菜单栏出现 Docker 图标（鲸鱼图标）
-4. 点击鲸鱼图标，确保显示 **Docker Desktop is running** ✅
+2. **安装 Docker Desktop**：
+   - 打开下载的 `.dmg` 文件
+   - 将 Docker 拖拽到 Applications 文件夹
+   - 从 Applications 启动 Docker Desktop
+   - 按照安装向导完成安装
 
-#### 验证安装：
-
-打开 **终端（Terminal）**，输入以下命令：
-
-```bash
-docker --version
-```
-
-如果显示版本号（如 `Docker version 24.0.0`），说明安装成功！
+3. **验证 Docker 运行状态**：
+   - 检查菜单栏中是否出现 Docker 图标
+   - 图标应显示 "Docker Desktop is running"
 
 ---
 
@@ -229,11 +220,8 @@ sudo kill -9 <PID>
 
 ## 📝 系统要求
 
-- **操作系统**：macOS 10.15 (Catalina) 或更高版本
-- **芯片**：Intel 或 Apple Silicon (M1/M2/M3)
-- **内存**：建议 6GB 以上
-- **磁盘空间**：至少 10GB 可用空间
-- **Docker Desktop**：版本 4.0 或更高
+- **操作系统**：macOS Sequoia 15.3.1 或更高版本
+- **Docker**：必须安装并运行 Docker Desktop for Mac
 
 ---
 

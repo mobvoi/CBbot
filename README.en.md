@@ -12,30 +12,19 @@
 
 #### Download and Installation:
 
-1. Visit Docker official website: [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
-2. Click **Download for Mac**
-3. Choose based on your Mac chip:
-   - **Apple Silicon (M1/M2/M3)** → Select ARM64 version
-   - **Intel Chip** → Select AMD64 version
-4. After download, double-click the `.dmg` file to install
-5. Drag the Docker icon into the **Applications** folder
+1. **Download Docker Desktop** from the official website:
+   - Visit: https://docs.docker.com/desktop/setup/install/mac-install/
+   - Choose the appropriate version for your Mac (Apple Silicon or Intel)
 
-#### Start Docker:
+2. **Install Docker Desktop**:
+   - Open the downloaded `.dmg` file
+   - Drag Docker to your Applications folder
+   - Launch Docker Desktop from Applications
+   - Follow the setup wizard to complete installation
 
-1. Open **Launchpad** and find the **Docker** icon
-2. Click to launch (first-time launch requires password authorization)
-3. Wait for the Docker icon (whale icon) to appear in the top menu bar
-4. Click the whale icon and ensure it shows **Docker Desktop is running** ✅
-
-#### Verify Installation:
-
-Open **Terminal** and enter the following command:
-
-```bash
-docker --version
-```
-
-If it displays a version number (e.g., `Docker version 24.0.0`), the installation is successful!
+3. **Verify Docker is running**:
+   - Check that the Docker icon appears in your menu bar
+   - The icon should indicate "Docker Desktop is running"
 
 ---
 
@@ -229,11 +218,8 @@ sudo kill -9 <PID>
 
 ## 📝 System Requirements
 
-- **Operating System**: macOS 10.15 (Catalina) or higher
-- **Chip**: Intel or Apple Silicon (M1/M2/M3)
-- **Memory**: 6GB or more recommended
-- **Disk Space**: At least 10GB available
-- **Docker Desktop**: Version 4.0 or higher
+- **Operating System**: macOS Sequoia 15.3.1 or later
+- **Docker**: Docker Desktop for Mac must be installed and running
 
 ---
 
