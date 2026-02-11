@@ -57,17 +57,27 @@
 3. **Git Auto-Install**: CBbot will auto-install Git via Homebrew on first launch (may require sudo password)
 4. **Network Required**: Ensure stable internet connection for Git installation and AI features
 
-### 🔧 **Upgrading from Testing Versions**
+### 🔧 **Upgrading from Previous Version**
 
-> **Note**: Only needed for internal testing versions (pre-1.0). Public releases (1.0+) have automatic upgrade support.
+> **Note**: The cleanup steps below are only needed for **internal testing versions** (pre-1.0 releases). Public releases (1.0+) have automatic upgrade support and do not require manual cleanup.
 
-If upgrading from pre-1.0 testing versions:
+If you previously installed an internal testing version, clean up first:
+
+#### 1. Remove CBbot app
+Move CBbot to Trash from Applications folder
+
+#### 2. Clean up data directories
 ```bash
-# Remove old data directories
 rm -rf ~/Library/Logs/CBbot
+rm -rf ~/Library/Logs/cbbot-desktop
+rm -rf ~/Library/Logs/codebanana-desktop
 rm -rf ~/Library/Application\ Support/CBbot
-# Then install new version normally
+rm -rf ~/Library/Application\ Support/cbbot-desktop
+rm -rf ~/Library/Application\ Support/codebanana-desktop
 ```
+
+#### 3. Install new version
+Follow the installation steps above for a fresh install.
 
 ---
 
