@@ -159,6 +159,21 @@ Monitor usage at [CodeBanana](https://www.codebanana.com) dashboard
 
 ---
 
+## 🌐 Network Tips
+
+**Using Overseas AI Models:**
+
+If you're using international AI models (OpenAI, Anthropic, etc.), we recommend enabling **VPN global proxy** for stable connections.
+
+**Setup:**
+1. Enable VPN with global proxy mode
+2. Restart CBbot after VPN is connected
+3. Verify connection is stable
+
+> **💡 Tip:** Local models and domestic services work without VPN.
+
+---
+
 ## 🧠 Skills
 
 CBbot automatically uses the right skill for your task:
