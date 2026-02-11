@@ -1,17 +1,77 @@
 # CBbot - One-Click Development Environment 🚀
 
-## 📦 Quick Download
+## 🎉 **NEW: CBbot Desktop Available!**
 
 <div align="center">
   <a href="https://github.com/mobvoi/CBbot/releases/latest">
-    <img src="https://img.shields.io/badge/📦_Download-Latest_Release-blue?style=for-the-badge&logo=github" alt="Download Latest Release" height="40">
+    <img src="https://img.shields.io/badge/🖥️_CBbot_Desktop-Download_DMG-blue?style=for-the-badge&logo=apple" alt="Download CBbot Desktop" height="40">
+  </a>
+  <a href="https://github.com/mobvoi/CBbot/releases/latest">
+    <img src="https://img.shields.io/badge/📦_Docker_Version-Download_ZIP-green?style=for-the-badge&logo=docker" alt="Download Docker Version" height="40">
   </a>
 </div>
 
 <div align="center">
-  <p><strong>🎯 Get the complete CBbot package from our latest release!</strong></p>
-  <p>📥 <a href="https://github.com/mobvoi/CBbot/releases">Visit Releases Page</a> • 🚀 One-click installation package available</p>
+  <p><strong>🍎 CBbot Desktop: Native macOS app with built-in AI coding assistant</strong></p>
+  <p><strong>🐳 Docker Version: Full development environment with containerized services</strong></p>
+  <p>📥 <a href="https://github.com/mobvoi/CBbot/releases">Visit Releases Page</a> • 🚀 Multiple installation options available</p>
 </div>
+
+## 🖥️ CBbot Desktop (NEW!)
+
+**🍎 Native macOS Application** - AI-powered coding assistant with streamlined setup
+
+### ✨ Features
+- 🚀 **Native macOS App**: No Docker setup required for basic AI features
+- 🤖 **Built-in AI Assistant**: Direct integration with CodeBanana AI services
+- ⚡ **Quick Launch**: Instant startup, no container dependencies
+- 🛠️ **Auto-Dependencies**: Automatically installs Git and development tools
+- 🔍 **Bundled Search**: Includes Ripgrep (v15.1.0) for fast code search
+
+### 📋 Requirements
+- **macOS**: Apple Silicon (M1/M2/M3/M4) or Intel
+- **Docker Desktop**: Required for advanced backend services
+- **Internet**: Required for AI features
+
+### 📦 Quick Download
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <strong>🍎 Apple Silicon</strong><br>
+        <a href="https://github.com/mobvoi/CBbot/releases/latest">CBbot-mac-arm64-v1.0.82.dmg</a>
+      </td>
+      <td align="center">
+        <strong>💻 Intel Mac</strong><br>
+        <a href="https://github.com/mobvoi/CBbot/releases/latest">CBbot-mac-x64-v1.0.82.dmg</a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+### ⚠️ **Important Installation Notes**
+
+1. **Docker Desktop Required**: Install and ensure Docker Desktop is **running** before launching CBbot Desktop
+2. **First Launch**: May show black screen while Docker starts - quit and relaunch after Docker is ready
+3. **Git Auto-Install**: CBbot will auto-install Git via Homebrew on first launch (may require sudo password)
+4. **Network Required**: Ensure stable internet connection for Git installation and AI features
+
+### 🔧 **Upgrading from Testing Versions**
+
+> **Note**: Only needed for internal testing versions (pre-1.0). Public releases (1.0+) have automatic upgrade support.
+
+If upgrading from pre-1.0 testing versions:
+```bash
+# Remove old data directories
+rm -rf ~/Library/Logs/CBbot
+rm -rf ~/Library/Application\ Support/CBbot
+# Then install new version normally
+```
+
+---
+
+## 🐳 Docker Development Environment (Advanced)
 
 ---
 
@@ -33,11 +93,55 @@
 
 ---
 
+## 🤔 Which Version Should I Choose?
+
+<div align="center">
+  <table>
+    <tr>
+      <th>🖥️ CBbot Desktop</th>
+      <th>🐳 Docker Version</th>
+    </tr>
+    <tr>
+      <td>
+        ✅ <strong>New users</strong><br>
+        ✅ <strong>AI coding assistance</strong><br>
+        ✅ <strong>Quick setup</strong><br>
+        ✅ <strong>Native macOS experience</strong>
+      </td>
+      <td>
+        ✅ <strong>Advanced developers</strong><br>
+        ✅ <strong>Full dev environment</strong><br>
+        ✅ <strong>Backend services</strong><br>
+        ✅ <strong>Container expertise</strong>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        ❌ Limited backend services<br>
+        ❌ Requires Docker for advanced features
+      </td>
+      <td>
+        ❌ Complex setup<br>
+        ❌ Higher resource usage
+      </td>
+    </tr>
+  </table>
+</div>
+
+**💡 Recommendation**: Start with **CBbot Desktop** for AI coding features, upgrade to Docker version when you need full development services.
+
+---
+
 ## 📑 Table of Contents
 
+### 🖥️ CBbot Desktop
+- [🖥️ CBbot Desktop](#️-cbbot-desktop-new)
+- [🤔 Which Version Should I Choose?](#-which-version-should-i-choose)
+
+### 🐳 Docker Version
 - [✨ Features](#-features)
 - [💬 Community](#-community)
-- [📋 Prerequisites](#-prerequisites)
+- [📋 Prerequisites](#-prerequisites-docker-version)
 - [⚡ Quick Start](#-quick-start)
 - [🎯 Access Services](#-access-services)
 - [🧠 Intelligent Skill System](#-intelligent-skill-system)
@@ -96,30 +200,20 @@ Join our community for support, discussions, and updates!
   <p>💡 <strong>获得帮助、分享想法、与其他开发者交流！</strong></p>
 </div>
 
-## 📋 Prerequisites
+**🐳 Full containerized development environment with Java, MySQL, Redis, RabbitMQ, and Node.js**
 
-### System Requirements
+### 📋 Prerequisites (Docker Version)
 
 - **Operating System**: macOS Sequoia 15.3.1 or later
-- **Docker**: Docker Desktop for Mac must be installed and running
+- **Docker Desktop**: Must be installed and running
+- **Technical Knowledge**: Familiarity with Docker and containerized environments
 
 ### Install Docker Desktop
 
-If you haven't installed Docker Desktop yet, please follow these steps:
-
-1. **Download Docker Desktop** from the official website:
-   - Visit: https://docs.docker.com/desktop/setup/install/mac-install/
-   - Choose the appropriate version for your Mac (Apple Silicon or Intel)
-
-2. **Install Docker Desktop**:
-   - Open the downloaded `.dmg` file
-   - Drag Docker to your Applications folder
-   - Launch Docker Desktop from Applications
-   - Follow the setup wizard to complete installation
-
-3. **Verify Docker is running**:
-   - Check that the Docker icon appears in your menu bar
-   - The icon should indicate "Docker Desktop is running"
+1. **Download Docker Desktop** from: https://docs.docker.com/desktop/setup/install/mac-install/
+2. **Install**: Drag Docker to Applications folder
+3. **Launch**: Start Docker Desktop and wait for it to be ready
+4. **Verify**: Check Docker icon in menu bar shows "running" status
 
 ## ⚡ Quick Start
 
@@ -474,6 +568,60 @@ export http_proxy=http://127.0.0.1:7890
 1. Login to [CodeBanana](https://www.codebanana.com)
 2. View account dashboard
 3. Check quotas & billing history
+
+---
+
+## 🛠️ CBbot Desktop Troubleshooting
+
+<details>
+<summary><strong>🖥️ Black screen on first launch</strong></summary>
+
+**Cause:** Docker Desktop is still starting up  
+**Solution:**
+1. Quit CBbot Desktop (⌘+Q)
+2. Wait for Docker Desktop to show "running" status in menu bar
+3. Relaunch CBbot Desktop
+
+</details>
+
+<details>
+<summary><strong>⚠️ Git installation failures</strong></summary>
+
+**Cause:** Network connectivity issues  
+**Solutions:**
+1. Check your network connection
+2. Try connecting via VPN if network is restricted
+3. Manual installation:
+   ```bash
+   xcode-select --install
+   # Or via Homebrew
+   brew install git
+   ```
+
+</details>
+
+<details>
+<summary><strong>🔒 Permission denied during Git installation</strong></summary>
+
+**Cause:** CBbot needs administrator access to install Git  
+**Solution:**
+1. Enter your macOS password when prompted
+2. Allow CBbot to install via Homebrew
+3. Restart CBbot after installation completes
+
+</details>
+
+<details>
+<summary><strong>🐳 Docker Desktop not detected</strong></summary>
+
+**Cause:** Docker Desktop not installed or not running  
+**Solutions:**
+1. Install Docker Desktop from [official website](https://docs.docker.com/desktop/setup/install/mac-install/)
+2. Launch Docker Desktop and wait for it to start
+3. Verify Docker icon shows "running" in menu bar
+4. Restart CBbot Desktop
+
+</details>
 
 ## 📄 License
 
