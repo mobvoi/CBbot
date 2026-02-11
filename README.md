@@ -22,16 +22,16 @@
 **🍎 Native macOS Application** - AI-powered coding assistant with streamlined setup
 
 ### ✨ Features
-- 🚀 **Native macOS App**: No Docker setup required for basic AI features
+- 🚀 **Native macOS App**: Streamlined setup with Docker Desktop integration
 - 🤖 **Built-in AI Assistant**: Direct integration with CodeBanana AI services
 - ⚡ **Quick Launch**: Instant startup, no container dependencies
 - 🛠️ **Auto-Dependencies**: Automatically installs Git and development tools
 - 🔍 **Bundled Search**: Includes Ripgrep (v15.1.0) for fast code search
 
-### 📋 Requirements
+### 📋 System Requirements
 - **macOS**: Apple Silicon (M1/M2/M3/M4) or Intel
-- **Docker Desktop**: Required for advanced backend services
-- **Internet**: Required for AI features
+- **Docker Desktop**: **Required** - Must be installed and running before launching CBbot
+- **Internet**: Required for AI features and dependency installation
 
 ### 📦 Quick Download
 
@@ -54,8 +54,18 @@
 
 1. **Docker Desktop Required**: Install and ensure Docker Desktop is **running** before launching CBbot Desktop
 2. **First Launch**: May show black screen while Docker starts - quit and relaunch after Docker is ready
-3. **Git Auto-Install**: CBbot will auto-install Git via Homebrew on first launch (may require sudo password)
+3. **Automatic Dependencies**: CBbot will auto-install required tools on first launch (see details below)
 4. **Network Required**: Ensure stable internet connection for Git installation and AI features
+
+### 🔧 **Automatic Dependency Installation**
+
+CBbot will automatically install required tools:
+- **Git** (version control) - auto-installed via Homebrew if not found
+- **Ripgrep** (code search) - bundled with CBbot (v15.1.0), no installation needed
+
+**Note**: Ripgrep is bundled with CBbot to avoid installation issues. If you have your own `rg` in PATH, it will be used instead of the bundled version.
+
+Git installation happens on first launch and may require sudo password.
 
 ### 🔧 **Upgrading from Previous Version**
 
