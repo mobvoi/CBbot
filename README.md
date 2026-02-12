@@ -174,6 +174,39 @@ If you're using international AI models (OpenAI, Anthropic, etc.), we recommend 
 
 ---
 
+## ⚙️ Advanced Configuration (Optional)
+
+### Configure Feishu Bot
+
+To enable Feishu bot functionality:
+
+1. Open CBbot application
+2. Go to **"Settings" → "Bot Configuration" → "Feishu"**
+3. Enter your **App ID** and **App Secret**
+4. Click **"Save"** and restart service
+
+### Configure Telegram Bot
+
+To enable Telegram bot functionality:
+
+1. Open CBbot application
+2. Go to **"Settings" → "Bot Configuration" → "Telegram"**
+3. Enter your **Bot Token** and **Username**
+4. Click **"Save"** and restart service
+
+### Configure Discord Bot
+
+To enable Discord bot functionality:
+
+1. Open CBbot application
+2. Go to **"Settings" → "Bot Configuration" → "Discord"**
+3. Enter your **Bot Token**
+4. Click **"Save"** and restart service
+
+> **💡 Tip:** All configurations are done through CBbot's graphical interface - no manual configuration file editing required!
+
+---
+
 ## 🧠 Skills
 
 CBbot automatically uses the right skill for your task:
