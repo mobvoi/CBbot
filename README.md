@@ -16,13 +16,14 @@
 
 ## 💻 What is CBbot?
 
-CBbot is an **AI-powered coding assistant** for macOS that helps you write code more efficiently, process documents, and automate tasks.
+CBbot is an **AI-native agent OS** that specializes in coding and task automation with seamless integration both locally and in the cloud.
 
 **Key Features:**
+- ✅ **SOTA AI Coding Agent**: Built-in powerful AI coding capabilities supporting the best global models
 - ✅ **Easy Installation**: Download DMG, drag to Applications - that's it!
-- ✅ **AI Assistant**: Built-in powerful AI coding capabilities
-- ✅ **Auto Configuration**: No manual configuration file editing
-- ✅ **Smart Tools**: Automatically installs required development tools
+- ✅ **Auto Configuration**: No manual configuration file editing required
+- ✅ **Safe Sandbox Environment**: Docker-based isolation protects your sensitive files and main system from prompt injection and other security risks
+- ✅ **Extensible Skill System**: Pre-loaded skills library with compatibility for open-source domain skills
 
 ## 💻 System Requirements
 
