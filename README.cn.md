@@ -1,10 +1,199 @@
-# 🚀 一键安装开发环境（macOS 专用）
+# 🚀 CBbot - AI 编程助手
 
-> 为 macOS 用户提供的一键式开发环境部署方案，包含 Java、MySQL、Redis、RabbitMQ、Node.js 全栈开发所需的所有服务。
+> 下载安装包 → 双击安装 → 即可使用 - 无需配置
+
+<div align="center">
+  <a href="https://github.com/mobvoi/CBbot/releases/latest">
+    <img src="https://img.shields.io/badge/🖥️_下载_CBbot-macOS_&_Windows-blue?style=for-the-badge&logo=desktop" alt="下载 CBbot" height="40">
+  </a>
+</div>
+
+<div align="center">
+  <p><strong>🍎🪟 原生桌面应用 · 一键安装 · 开箱即用</strong></p>
+</div>
 
 ---
 
-## 📋 使用前准备
+## 💻 CBbot 是什么？
+
+CBbot 是一个 **AI 原生智能体操作系统**，专门用于编程和任务自动化，支持本地和云端无缝集成。
+
+**核心功能：**
+- ✅ **SOTA AI 编程智能体**：内置强大的 AI 编程能力，支持全球最优秀的模型
+- ✅ **轻松安装**：下载安装包，双击安装 - 就是这么简单！
+- ✅ **自动配置**：无需手动编辑配置文件
+- ✅ **安全沙盒环境**：基于 Docker 的隔离保护您的敏感文件和主系统免受提示注入等安全风险
+- ✅ **可扩展技能系统**：预装技能库，兼容开源领域技能
+
+## 📦 下载 CBbot
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <strong>🍎 macOS (Apple Silicon)</strong><br>
+        <a href="https://github.com/mobvoi/CBbot/releases/latest">⬇️ 下载 CBbot.dmg</a><br>
+        <small>M1/M2/M3/M4 芯片</small>
+      </td>
+      <td align="center">
+        <strong>🍎 macOS (Intel)</strong><br>
+        <a href="https://github.com/mobvoi/CBbot/releases/latest">⬇️ 下载 CBbot.dmg</a><br>
+        <small>Intel x86_64</small>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2">
+        <strong>🪟 Windows</strong><br>
+        <a href="https://github.com/mobvoi/CBbot/releases/latest">⬇️ 下载 CBbot-Setup.exe</a><br>
+        <small>Windows 10/11 (x64)</small>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## 📦 安装步骤
+
+### 第一步：安装 Docker Desktop
+
+**Docker Desktop** 是运行 CBbot 的必备工具。如果您已经安装，请跳到第二步。
+
+#### macOS 用户：
+
+**下载安装：**
+
+1. 访问 Docker 官网：[https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
+2. 点击 **Download for Mac**
+3. 根据您的 Mac 芯片选择：
+   - **Apple Silicon (M1/M2/M3/M4)** → 选择 ARM64 版本
+   - **Intel 芯片** → 选择 AMD64 版本
+4. 双击 `.dmg` 文件安装
+5. 将 Docker 图标拖到 **Applications** 文件夹
+
+**启动 Docker：**
+
+1. 打开 **Launchpad**，找到 **Docker** 图标
+2. 点击启动（首次启动需要输入密码）
+3. 等待菜单栏出现 Docker 图标（鲸鱼）
+4. 点击鲸鱼图标，确保显示 **Docker Desktop is running**
+
+#### Windows 用户：
+
+**下载安装：**
+
+1. 访问 Docker 官网：[https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
+2. 点击 **Download for Windows**
+3. 运行 `Docker Desktop Installer.exe` 文件
+4. 按照安装向导操作：
+   - 勾选 **"Use WSL 2 instead of Hyper-V"**（推荐）
+   - 完成安装，如有提示请重启
+
+**启动 Docker：**
+
+1. 从开始菜单打开 **Docker Desktop**
+2. 如有提示，接受服务协议
+3. 等待 Docker 启动（系统托盘会显示鲸鱼图标）
+4. 确保状态显示 **Docker Desktop is running**
+
+**配置 WSL 集成：**
+
+1. 打开 Docker Desktop 设置（齿轮图标）
+2. 导航到 **Resources** → **WSL integration**
+3. 启用以下选项：
+   - ✅ **"Enable integration with my default WSL distro"**
+   - ✅ 开启 **"Ubuntu"**（或您首选的 Linux 发行版）
+4. 点击 **"Apply & restart"**
+5. 等待 Docker 重启
+
+![Docker WSL 集成设置](https://oci-useast-backend-public.dupdub.com/subtitles/image/2c9d72b3-2dbf-49ac-b274-d53aa74c4ee2.jpeg)
+
+*按照上图所示的设置面板配置 WSL 集成*
+
+**配置 WSL 网络代理（可选但推荐）：**
+
+**步骤 1：创建 .wslconfig 文件**
+1. 打开 **文件资源管理器**
+2. 导航到您的用户目录：`C:\Users\<your_username>`
+3. 创建一个新的文本文件，并将其命名为 `.wslconfig`（注意没有文件扩展名）
+
+**步骤 2：编辑 .wslconfig 文件**
+1. 右键点击 `.wslconfig` 文件
+2. 选择 **"用记事本打开"**
+3. 在打开的文本编辑器中输入以下内容：
+
+```ini
+[wsl2]
+memory=3GB
+autoMemoryReclaim=gradual
+networkingMode=mirrored
+dnsTunneling=true
+firewall=true
+autoProxy=true
+```
+
+4. 保存文件 (**Ctrl+S**)
+5. 在 PowerShell 中运行以下命令重启 WSL：`wsl --shutdown`
+6. 重启 Docker Desktop
+
+> **💡 提示：** 此配置启用自动代理检测，改善 CBbot 在 WSL 环境中的网络兼容性。
+
+**启用 WSL 2（如未安装）：**
+
+1. 以管理员身份打开 PowerShell
+2. 运行：`wsl --install`
+3. 重启计算机
+4. 重新启动 Docker Desktop 并按上述步骤配置 WSL 集成
+
+### 第二步：安装 CBbot
+
+#### macOS 用户：
+
+1. 从 [Releases 页面](https://github.com/mobvoi/CBbot/releases/latest) 下载 CBbot
+2. 双击 `CBbot.dmg` 文件
+3. 将 **CBbot** 拖到 **Applications** 文件夹
+4. 完成！
+
+#### Windows 用户：
+
+1. 从 [Releases 页面](https://github.com/mobvoi/CBbot/releases/latest) 下载 CBbot
+2. 运行 `CBbot-Setup.exe` 文件
+3. 按照安装向导操作：
+   - 选择安装目录（推荐默认）
+   - 接受许可协议
+   - 完成安装
+4. 完成！
+
+### 第三步：启动 CBbot
+
+#### macOS 用户：
+
+1. 打开 **Applications**，点击 **CBbot**
+2. 首次启动：如有询问请点击 "Open"
+3. 等待服务启动（30-60 秒）
+
+#### Windows 用户：
+
+1. 在开始菜单或桌面快捷方式中找到 **CBbot**
+2. 右键选择 **"以管理员身份运行"**（仅首次启动）
+3. 等待服务启动（30-60 秒）
+4. CBbot 将在默认浏览器中打开
+
+### 第四步：绑定您的密钥
+
+**获取您的密钥：**
+1. 访问 [CodeBanana](https://www.codebanana.com)
+2. 登录 → 点击头像 → **"CBbot Key"**
+3. 复制您的密钥
+
+**绑定密钥：**
+1. 在 CBbot 启动界面粘贴您的密钥
+2. 点击 **"绑定"**
+3. 完成！CBbot 已准备就绪
+
+---
+
+## 📋 使用前准备（旧版说明 - 仅供参考）
 
 ### 1️⃣ 安装 Docker Desktop
 
@@ -218,10 +407,21 @@ sudo kill -9 <PID>
 # 或修改 docker-compose.yml 中的端口映射
 ```
 
-## 📝 系统要求
+## 💻 系统要求
 
-- **操作系统**：macOS Sequoia 15.3.1 或更高版本
-- **Docker**：必须安装并运行 Docker Desktop for Mac
+### macOS
+- **操作系统**：macOS 10.15 (Catalina) 或更高版本
+- **芯片**：Apple Silicon (M1/M2/M3/M4) 或 Intel
+- **内存**：建议 6GB 或以上
+- **磁盘空间**：至少 10GB 可用空间
+- **网络**：AI 功能需要网络连接
+
+### Windows
+- **操作系统**：Windows 10 (64位) 或 Windows 11
+- **架构**：x64 (Intel/AMD)
+- **内存**：建议 8GB 或以上
+- **磁盘空间**：至少 10GB 可用空间
+- **网络**：AI 功能需要网络连接
 
 ---
 
