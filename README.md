@@ -48,19 +48,19 @@ CBbot is an **AI-native agent OS** that specializes in coding and task automatio
     <tr>
       <td align="center">
         <strong>🍎 macOS (Apple Silicon)</strong><br>
-        <a href="https://github.com/mobvoi/CBbot/releases/latest">⬇️ Download CBbot.dmg</a><br>
+        <a href="https://prd-tc-intl-cdn.codebanana.com/releases/cbbot/CBbot-mac-arm64-v1.0.82.dmg">⬇️ Download CBbot.dmg</a><br>
         <small>M1/M2/M3/M4 chips</small>
       </td>
       <td align="center">
         <strong>🍎 macOS (Intel)</strong><br>
-        <a href="https://github.com/mobvoi/CBbot/releases/latest">⬇️ Download CBbot.dmg</a><br>
+        <a href="https://prd-tc-intl-cdn.codebanana.com/releases/cbbot/CBbot-mac-x64-v1.0.82.dmg">⬇️ Download CBbot.dmg</a><br>
         <small>Intel x86_64</small>
       </td>
     </tr>
     <tr>
       <td align="center" colspan="2">
         <strong>🪟 Windows</strong><br>
-        <a href="https://github.com/mobvoi/CBbot/releases/latest">⬇️ Download CBbot-Setup.exe</a><br>
+        <a href="https://prd-tc-intl-cdn.codebanana.com/releases/cbbot/CBbot-win-x64-v1.2.30.exe">⬇️ Download CBbot-Setup.exe</a><br>
         <small>Windows 10/11 (x64)</small>
       </td>
     </tr>
