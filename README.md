@@ -1,6 +1,11 @@
 # CBbot - AI Coding Assistant 🚀
 
-> **Download → Double-Click Install → Ready to Use - No Configuration Needed**
+> **✨ Zero Dependencies · One-Click Login · Fully Native ✨**  
+> Download → Install → Click Login → Done!
+
+<p align="center">
+  <a href="docs/i18n/README.zh.md">🇨🇳 简体中文</a>
+</p>
 
 <div align="center">
   <a href="https://github.com/mobvoi/CBbot/releases/latest">
@@ -20,25 +25,30 @@ CBbot is an **AI-native agent OS** that specializes in coding and task automatio
 
 **Key Features:**
 - ✅ **SOTA AI Coding Agent**: Built-in powerful AI coding capabilities supporting the best global models
-- ✅ **Easy Installation**: Download DMG, drag to Applications - that's it!
+- ✅ **Zero Dependencies**: No Docker, WSL, or any external tools required - completely native
+- ✅ **One-Click Login**: Just click to open browser login - no manual key copying
 - ✅ **Auto Configuration**: No manual configuration file editing required
-- ✅ **Safe Sandbox Environment**: Docker-based isolation protects your sensitive files and main system from prompt injection and other security risks
+- ✅ **Safe Execution Environment**: Secure runtime isolation protects your system from unauthorized access
 - ✅ **Extensible Skill System**: Pre-loaded skills library with compatibility for open-source domain skills
 
 ## 💻 System Requirements
 
+> **🎯 Zero Dependencies**: No Docker, WSL, or external tools needed - just download and run!
+
 ### macOS
 - **Operating System**: macOS 10.15 (Catalina) or higher
-- **Chip**: Apple Silicon (M1/M2/M3/M4) or Intel
-- **Memory**: 6GB or more recommended
-- **Disk Space**: At least 10GB available
+- **Chip**: Apple Silicon only (M1/M2/M3/M4) - Tested on all M-series chips
+- **Memory**: 8GB or more recommended
+- **Disk Space**: At least 2GB available
+- **Dependencies**: ✅ **None** - Fully native application
 - **Internet**: Required for AI features
 
 ### Windows
-- **Operating System**: Windows 10 (64-bit) or Windows 11
-- **Architecture**: x64 (Intel/AMD)
+- **Operating System**: Windows 10 (64-bit) or Windows 11 required
+- **Architecture**: x64 (Intel/AMD 64-bit)
 - **Memory**: 8GB or more recommended
-- **Disk Space**: At least 10GB available
+- **Disk Space**: At least 2GB available
+- **Dependencies**: ✅ **None** - Fully native application (no WSL)
 - **Internet**: Required for AI features
 
 ## 📦 Download CBbot
@@ -48,162 +58,47 @@ CBbot is an **AI-native agent OS** that specializes in coding and task automatio
     <tr>
       <td align="center">
         <strong>🍎 macOS (Apple Silicon)</strong><br>
-        <a href="https://prd-tc-intl-cdn.codebanana.com/releases/cbbot/CBbot-mac-arm64-v1.0.82.dmg">⬇️ Download CBbot.dmg</a><br>
-        <small>M1/M2/M3/M4 chips</small>
+        <a href="https://github.com/mobvoi/CBbot/releases/latest">⬇️ Download CBbot.dmg</a><br>
+        <small>M1/M2/M3/M4 chips - Tested on all M-series</small>
       </td>
       <td align="center">
-        <strong>🍎 macOS (Intel)</strong><br>
-        <a href="https://prd-tc-intl-cdn.codebanana.com/releases/cbbot/CBbot-mac-x64-v1.0.82.dmg">⬇️ Download CBbot.dmg</a><br>
-        <small>Intel x86_64</small>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" colspan="2">
         <strong>🪟 Windows</strong><br>
-        <a href="https://prd-tc-intl-cdn.codebanana.com/releases/cbbot/CBbot-win-x64-v1.2.30.exe">⬇️ Download CBbot-Setup.exe</a><br>
-        <small>Windows 10/11 (x64)</small>
+        <a href="https://github.com/mobvoi/CBbot/releases/latest">⬇️ Download CBbot-Setup.exe</a><br>
+        <small>Windows 10/11 (64-bit) - No WSL required</small>
       </td>
     </tr>
   </table>
 </div>
 
-## 📦 Installation Steps
+## 📦 Installation
 
-### Step 1: Install Docker Desktop
+### macOS Installation
 
-**Docker Desktop** is essential for running CBbot. If you already have it installed, skip to Step 2.
+1. **Download**: Get the latest `.dmg` file from the [Releases page](https://github.com/mobvoi/CBbot/releases/latest)
+2. **Install**: 
+   - Double-click `CBbot.dmg`
+   - Drag **CBbot** to **Applications** folder
+3. **Launch & Login**: 
+   - Open **Applications** → **CBbot**
+   - First launch: Click "Open" when prompted by security dialog
+   - Click **"Login"** button - your browser will open automatically
+   - Complete login in browser - CBbot will auto-detect and start
+   - Done! No keys to copy, no manual configuration needed
 
-#### For macOS Users:
+### Windows Installation
 
-**Download and Install:**
-
-1. Visit Docker website: [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
-2. Click **Download for Mac**
-3. Choose based on your Mac chip:
-   - **Apple Silicon (M1/M2/M3/M4)** → Select ARM64 version
-   - **Intel Chip** → Select AMD64 version
-4. Double-click the `.dmg` file to install
-5. Drag Docker icon to **Applications** folder
-
-**Start Docker:**
-
-1. Open **Launchpad**, find **Docker** icon
-2. Click to launch (first launch requires password)
-3. Wait for Docker icon (whale) in menu bar
-4. Click whale icon, ensure it shows **Docker Desktop is running**
-
-#### For Windows Users:
-
-**Download and Install:**
-
-1. Visit Docker website: [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
-2. Click **Download for Windows**
-3. Run the `Docker Desktop Installer.exe` file
-4. Follow the installation wizard:
-   - Check **"Use WSL 2 instead of Hyper-V"** (recommended)
-   - Complete the installation and restart if prompted
-
-**Start Docker:**
-
-1. Open **Docker Desktop** from Start Menu
-2. Accept the service agreement if prompted
-3. Wait for Docker to start (you'll see a whale icon in system tray)
-4. Ensure the status shows **Docker Desktop is running**
-
-**Configure WSL Integration:**
-
-1. Open Docker Desktop settings (gear icon)
-2. Navigate to **Resources** → **WSL integration**
-3. Enable the following options:
-   - ✅ **"Enable integration with my default WSL distro"**
-   - ✅ Toggle **"Ubuntu"** (or your preferred Linux distribution)
-4. Click **"Apply & restart"**
-5. Wait for Docker to restart
-
-![Docker WSL Integration Settings](https://oci-useast-backend-public.dupdub.com/subtitles/image/2c9d72b3-2dbf-49ac-b274-d53aa74c4ee2.jpeg)
-
-*Configure WSL integration as shown in the settings panel above*
-
-**Configure WSL Network Proxy (Optional but Recommended):**
-
-**Step 1: Create .wslconfig file**
-1. Open **File Explorer**
-2. Navigate to your user directory: `C:\Users\<your_username>`
-3. Create a new text file and name it `.wslconfig` (note: no file extension)
-
-**Step 2: Edit .wslconfig file**
-1. Right-click the `.wslconfig` file
-2. Select **"Open with Notepad"**
-3. Enter the following content:
-
-```ini
-[wsl2]
-memory=3GB
-autoMemoryReclaim=gradual
-networkingMode=mirrored
-dnsTunneling=true
-firewall=true
-autoProxy=true
-```
-
-4. Save the file (**Ctrl+S**)
-5. Restart WSL by running in PowerShell: `wsl --shutdown`
-6. Restart Docker Desktop
-
-> **💡 Note:** This configuration enables automatic proxy detection and improves network compatibility for CBbot in WSL environments.
-
-**Enable WSL 2 (if not already installed):**
-
-1. Open PowerShell as Administrator
-2. Run: `wsl --install`
-3. Restart your computer
-4. Launch Docker Desktop again and configure WSL integration as above
-
-### Step 2: Install CBbot
-
-#### For macOS Users:
-
-1. Download CBbot from [Releases Page](https://github.com/mobvoi/CBbot/releases/latest)
-2. Double-click the `CBbot.dmg` file
-3. Drag **CBbot** to **Applications** folder
-4. Done!
-
-#### For Windows Users:
-
-1. Download CBbot from [Releases Page](https://github.com/mobvoi/CBbot/releases/latest)
-2. Run the `CBbot-Setup.exe` file
-3. Follow the installation wizard:
+1. **Download**: Get the latest `.exe` file from the [Releases page](https://github.com/mobvoi/CBbot/releases/latest)
+2. **Install**: 
+   - Run `CBbot-Setup.exe`
+   - Follow the installation wizard
    - Choose installation directory (default recommended)
-   - Accept the license agreement
-   - Complete the installation
-4. Done!
+3. **Launch & Login**:
+   - Find **CBbot** in Start Menu
+   - Click **"Login"** button - your browser will open automatically
+   - Complete login in browser - CBbot will auto-detect and start
+   - Done! No keys to copy, no manual configuration needed
 
-### Step 3: Launch CBbot
-
-#### For macOS Users:
-
-1. Open **Applications** and click **CBbot**
-2. First launch: Click "Open" if asked
-3. Wait for services to start (30-60 seconds)
-
-#### For Windows Users:
-
-1. Find **CBbot** in Start Menu or Desktop shortcut
-2. Right-click and **"Run as administrator"** (first launch only)
-3. Wait for services to start (30-60 seconds)
-4. CBbot will open in your default browser
-
-### Step 4: Bind Your Key
-
-**Get Your Key:**
-1. Visit [CodeBanana](https://www.codebanana.com)
-2. Log in → Click avatar → **"CBbot Key"**
-3. Copy your Key
-
-**Bind Key:**
-1. Paste your Key in CBbot startup screen
-2. Click **"Bind"**
-3. Done! CBbot is ready to use
+> **💡 Easy Login**: CBbot uses browser-based login - just click the button and log in. The app automatically detects your login and starts. No need to copy any keys or tokens manually!
 
 ---
 
@@ -336,68 +231,50 @@ Contribute to `skills/` directory. See `codebanana-skill-guide` for details.
 
 ## 🛠️ Troubleshooting
 
-### Common Issues (All Platforms)
+### Common Issues
 
 **CBbot won't start:**
-- Check Docker Desktop is running
-- Ensure 8GB+ memory available (Windows) / 6GB+ (macOS)
-- Restart Docker and CBbot
+- Ensure you have stable internet connection
+- Check system meets minimum requirements (8GB RAM, 2GB disk space)
+- Restart your computer and try again
+- On Windows: Run as Administrator on first launch
 
 **Can't access interface:**
-- Wait 1-2 minutes for startup
-- Check CBbot shows "Running"
-- Restart CBbot if needed
+- Wait 30-60 seconds for startup on first launch
+- Check firewall isn't blocking CBbot
+- Try restarting the application
 
 **Key binding failed:**
-- Check Key has no extra spaces
-- Verify network connection
-- Get new Key from CodeBanana
-
-**Git install fails:**
+- Verify your Key has no extra spaces
 - Check network connection
-- Restart CBbot to retry installation
+- Get a new Key from [CodeBanana](https://www.codebanana.com)
 
-### macOS Specific Issues
+### macOS Specific
 
-**Black screen on launch:**
-- Docker is starting up
-- Quit CBbot (⌘+Q), wait for Docker, relaunch
+**"Cannot open" security warning:**
+- Go to **System Settings** → **Privacy & Security**
+- Click **Open Anyway** next to CBbot warning
+- Click **Open** in the confirmation dialog
 
-**Permission denied:**
-- Enter password when prompted
-- Allow required installations
+**Permission denied errors:**
+- Grant required permissions when prompted
+- Check **System Settings** → **Privacy & Security** → **Files and Folders**
 
-**Docker not detected:**
-- Install from [Docker website](https://docs.docker.com/desktop/setup/install/mac-install/)
-- Launch and wait for "running" status
-- Restart CBbot
+### Windows Specific
 
-### Windows Specific Issues
+**"Windows protected your PC" warning:**
+- Click **More info**
+- Click **Run anyway**
+- This is normal for new applications
 
-**"Access denied" or permission errors:**
-- Run CBbot as Administrator (right-click → "Run as administrator")
-- Ensure Windows Defender isn't blocking CBbot
-- Check antivirus software exceptions
-
-**WSL 2 installation issues:**
-- Open PowerShell as Administrator
-- Run: `wsl --install --distribution Ubuntu`
-- Restart computer and try again
-
-**Docker Desktop won't start:**
-- Enable Hyper-V in Windows Features
-- Update Windows to latest version
-- Restart Docker Desktop service
-
-**Firewall blocking connections:**
+**Firewall blocking:**
 - Add CBbot to Windows Firewall exceptions
-- Allow Docker Desktop through firewall
-- Check corporate firewall settings
+- Go to **Windows Security** → **Firewall & network protection** → **Allow an app**
 
 **Installation fails:**
+- Run installer as Administrator (right-click → "Run as administrator")
 - Disable antivirus temporarily during install
-- Run installer as Administrator
-- Install to default directory (avoid paths with spaces)
+- Install to default directory (avoid paths with spaces or special characters)
 
 ---
 
