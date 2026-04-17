@@ -1,7 +1,6 @@
 # 🚀 CBbot - AI 编程助手
 
-> **✨ 零依赖 · 一键登录 · 完全原生 ✨**  
-> 下载 → 安装 → 点击登录 → 完成！
+> **✨ 零依赖 · 一键登录 · 完全原生 ✨**
 
 <p align="center">
   <a href="../../README.md">🇺🇸 English</a>
@@ -58,12 +57,12 @@ CBbot 是一个 **AI 原生智能体操作系统**，专门用于编程和任务
     <tr>
       <td align="center">
         <strong>🍎 macOS (Apple Silicon)</strong><br>
-        <a href="https://github.com/mobvoi/CBbot/releases/latest">⬇️ 下载 CBbot.dmg</a><br>
+        <a href="https://codebanana-1308581983.cos.na-siliconvalley.myqcloud.com/releases/cbbot/v3.7.4/CBbot-mac-arm64-v3.7.4.dmg">⬇️ 下载 CBbot.dmg</a><br>
         <small>M1/M2/M3/M4 芯片 - 已在所有 M 系列上测试</small>
       </td>
       <td align="center">
         <strong>🪟 Windows</strong><br>
-        <a href="https://github.com/mobvoi/CBbot/releases/latest">⬇️ 下载 CBbot-Setup.exe</a><br>
+        <a href="https://codebanana-1308581983.cos.na-siliconvalley.myqcloud.com/releases/cbbot/v3.7.4/CBbot-lite-win-x64-v3.7.4.exe">⬇️ 下载 CBbot-Setup.exe</a><br>
         <small>Windows 10/11 (64位) - 无需 WSL</small>
       </td>
     </tr>
@@ -166,16 +165,16 @@ CBbot 是一个 **AI 原生智能体操作系统**，专门用于编程和任务
 
 ## 🌐 网络提示
 
-**使用海外 AI 模型：**
+**中国大陆用户：**
 
-如果您使用国际 AI 模型（OpenAI、Anthropic 等），我们建议启用 **VPN 全局代理**以获得稳定连接。
+CBbot 无需 VPN 即可使用，但使用 VPN 可提升性能。由于 CBbot 连接海外服务器，启用 VPN 可获得更快、更稳定的连接体验。
 
-**设置：**
+**可选 VPN 设置：**
 1. 启用 VPN 全局代理模式
 2. 连接 VPN 后重启 CBbot
-3. 验证连接稳定
+3. 享受更快的响应速度
 
-> **💡 提示：** 本地模型和国内服务无需 VPN。
+> **💡 说明：** VPN 为可选项，但建议中国大陆用户使用以获得更佳体验。
 
 ---
 

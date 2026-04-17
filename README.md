@@ -1,7 +1,6 @@
 # CBbot - AI Coding Assistant 🚀
 
-> **✨ Zero Dependencies · One-Click Login · Fully Native ✨**  
-> Download → Install → Click Login → Done!
+> **✨ Zero Dependencies · One-Click Login · Fully Native ✨**
 
 <p align="center">
   <a href="docs/i18n/README.zh.md">🇨🇳 简体中文</a>
@@ -58,12 +57,12 @@ CBbot is an **AI-native agent OS** that specializes in coding and task automatio
     <tr>
       <td align="center">
         <strong>🍎 macOS (Apple Silicon)</strong><br>
-        <a href="https://github.com/mobvoi/CBbot/releases/latest">⬇️ Download CBbot.dmg</a><br>
+        <a href="https://codebanana-1308581983.cos.na-siliconvalley.myqcloud.com/releases/cbbot/v3.7.4/CBbot-mac-arm64-v3.7.4.dmg">⬇️ Download CBbot.dmg</a><br>
         <small>M1/M2/M3/M4 chips - Tested on all M-series</small>
       </td>
       <td align="center">
         <strong>🪟 Windows</strong><br>
-        <a href="https://github.com/mobvoi/CBbot/releases/latest">⬇️ Download CBbot-Setup.exe</a><br>
+        <a href="https://codebanana-1308581983.cos.na-siliconvalley.myqcloud.com/releases/cbbot/v3.7.4/CBbot-lite-win-x64-v3.7.4.exe">⬇️ Download CBbot-Setup.exe</a><br>
         <small>Windows 10/11 (64-bit) - No WSL required</small>
       </td>
     </tr>
@@ -164,16 +163,16 @@ Monitor usage at [CodeBanana](https://www.codebanana.com) dashboard
 
 ## 🌐 Network Tips
 
-**Using Overseas AI Models:**
+**For Users in China:**
 
-If you're using international AI models (OpenAI, Anthropic, etc.), we recommend enabling **VPN global proxy** for stable connections.
+CBbot works without VPN, but using one improves performance. Since CBbot connects to overseas servers, a VPN provides faster and more stable connections.
 
-**Setup:**
+**Optional VPN Setup:**
 1. Enable VPN with global proxy mode
 2. Restart CBbot after VPN is connected
-3. Verify connection is stable
+3. Enjoy faster response times
 
-> **💡 Tip:** Local models and domestic services work without VPN.
+> **💡 Note:** VPN is optional but recommended for better experience in mainland China.
 
 ---
 
