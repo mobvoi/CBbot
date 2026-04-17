@@ -103,63 +103,11 @@ CBbot is an **AI-native agent OS** that specializes in coding and task automatio
 
 ## 📑 Contents
 
-- [💬 Community](#-community)
-- [💰 Billing](#-billing)
 - [🧠 Skills](#-skills)
 - [🛠️ Troubleshooting](#️-troubleshooting)
+- [💬 Community](#-community)
+- [💰 Billing](#-billing)
 - [📄 License](#-license)  
-
-## 💬 Community
-
-Join our community for support, discussions, and updates!
-
-### 🌐 International Community
-
-<div align="center">
-  <a href="https://discord.com/invite/yUcCxACgh9">
-    <img src="https://img.shields.io/badge/Discord-Join_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord" height="40">
-  </a>
-</div>
-
-### 🇨🇳 中文社区
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://oci-useast-backend-public.dupdub.com/subtitles/image/35f1e711-f7c1-4894-a1a4-e0ca133aa4cc.png" alt="飞书群" width="150">
-        <br>
-        <strong>🚀 飞书群</strong>
-        <br>
-        <small>CBbot交流群</small>
-      </td>
-      <td align="center">
-        <img src="https://oci-useast-backend-public.dupdub.com/subtitles/image/df588231-d149-4a29-92bc-e4c6dbf5f51f.jpg" alt="微信群" width="150">
-        <br>
-        <strong>💬 微信群</strong>
-        <br>
-        <small>CBbot 交流群</small>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<div align="center">
-  <p>🚀 <strong>Get help, share ideas, and connect with other developers!</strong></p>
-  <p>💡 <strong>获得帮助、分享想法、与其他开发者交流！</strong></p>
-</div>
-
----
-
-## 💰 Billing
-
-- **Pay-as-you-go** based on usage
-- Linked via CBbot Key
-- Costs: API calls + model usage
-
-Monitor usage at [CodeBanana](https://www.codebanana.com) dashboard
-
----
 
 ## 🌐 Network Tips
 
@@ -292,6 +240,58 @@ Alternatively:
 1. Open **Control Panel** → **Programs and Features**
 2. Find **CBbot** in the list
 3. Right-click → **Uninstall**
+
+---
+
+## 💬 Community
+
+Join our community for support, discussions, and updates!
+
+### 🌐 International Community
+
+<div align="center">
+  <a href="https://discord.com/invite/yUcCxACgh9">
+    <img src="https://img.shields.io/badge/Discord-Join_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord" height="40">
+  </a>
+</div>
+
+### 🇨🇳 中文社区
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://oci-useast-backend-public.dupdub.com/subtitles/image/35f1e711-f7c1-4894-a1a4-e0ca133aa4cc.png" alt="飞书群" width="150">
+        <br>
+        <strong>🚀 飞书群</strong>
+        <br>
+        <small>CBbot交流群</small>
+      </td>
+      <td align="center">
+        <img src="https://oci-useast-backend-public.dupdub.com/subtitles/image/df588231-d149-4a29-92bc-e4c6dbf5f51f.jpg" alt="微信群" width="150">
+        <br>
+        <strong>💬 微信群</strong>
+        <br>
+        <small>CBbot 交流群</small>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div align="center">
+  <p>🚀 <strong>Get help, share ideas, and connect with other developers!</strong></p>
+  <p>💡 <strong>获得帮助、分享想法、与其他开发者交流！</strong></p>
+</div>
+
+---
+
+## 💰 Billing
+
+- **Pay-as-you-go** based on usage
+- Linked via CBbot Key
+- Costs: API calls + model usage
+
+Monitor usage at [CodeBanana](https://www.codebanana.com) dashboard
 
 ---
 

@@ -105,63 +105,11 @@ CBbot 是一个 **AI 原生智能体操作系统**，专门用于编程和任务
 
 ## 📑 目录
 
-- [💬 社区](#-社区)
-- [💰 计费](#-计费)
 - [🧠 技能](#-技能)
 - [🛠️ 故障排除](#️-故障排除)
+- [💬 社区](#-社区)
+- [💰 计费](#-计费)
 - [📄 许可证](#-许可证)  
-
-## 💬 社区
-
-加入我们的社区获取支持、讨论和更新！
-
-### 🌐 国际社区
-
-<div align="center">
-  <a href="https://discord.com/invite/yUcCxACgh9">
-    <img src="https://img.shields.io/badge/Discord-加入社区-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord" height="40">
-  </a>
-</div>
-
-### 🇨🇳 中文社区
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://oci-useast-backend-public.dupdub.com/subtitles/image/35f1e711-f7c1-4894-a1a4-e0ca133aa4cc.png" alt="飞书群" width="150">
-        <br>
-        <strong>🚀 飞书群</strong>
-        <br>
-        <small>CBbot交流群</small>
-      </td>
-      <td align="center">
-        <img src="https://oci-useast-backend-public.dupdub.com/subtitles/image/df588231-d149-4a29-92bc-e4c6dbf5f51f.jpg" alt="微信群" width="150">
-        <br>
-        <strong>💬 微信群</strong>
-        <br>
-        <small>CBbot 交流群</small>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<div align="center">
-  <p>🚀 <strong>Get help, share ideas, and connect with other developers!</strong></p>
-  <p>💡 <strong>获得帮助、分享想法、与其他开发者交流！</strong></p>
-</div>
-
----
-
-## 💰 计费
-
-- 按实际使用量**按需付费**
-- 通过 CBbot Key 关联
-- 费用：API 调用 + 模型使用
-
-在 [CodeBanana](https://www.codebanana.com) 控制面板监控使用情况
-
----
 
 ## 🌐 网络提示
 
@@ -294,6 +242,58 @@ CBbot 自动为您的任务选择正确的技能：
 1. 打开 **控制面板** → **程序和功能**
 2. 在列表中找到 **CBbot**
 3. 右键 → **卸载**
+
+---
+
+## 💬 社区
+
+加入我们的社区获取支持、讨论和更新！
+
+### 🌐 国际社区
+
+<div align="center">
+  <a href="https://discord.com/invite/yUcCxACgh9">
+    <img src="https://img.shields.io/badge/Discord-加入社区-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord" height="40">
+  </a>
+</div>
+
+### 🇨🇳 中文社区
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://oci-useast-backend-public.dupdub.com/subtitles/image/35f1e711-f7c1-4894-a1a4-e0ca133aa4cc.png" alt="飞书群" width="150">
+        <br>
+        <strong>🚀 飞书群</strong>
+        <br>
+        <small>CBbot交流群</small>
+      </td>
+      <td align="center">
+        <img src="https://oci-useast-backend-public.dupdub.com/subtitles/image/df588231-d149-4a29-92bc-e4c6dbf5f51f.jpg" alt="微信群" width="150">
+        <br>
+        <strong>💬 微信群</strong>
+        <br>
+        <small>CBbot 交流群</small>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div align="center">
+  <p>🚀 <strong>Get help, share ideas, and connect with other developers!</strong></p>
+  <p>💡 <strong>获得帮助、分享想法、与其他开发者交流！</strong></p>
+</div>
+
+---
+
+## 💰 计费
+
+- 按实际使用量**按需付费**
+- 通过 CBbot Key 关联
+- 费用：API 调用 + 模型使用
+
+在 [CodeBanana](https://www.codebanana.com) 控制面板监控使用情况
 
 ---
 
